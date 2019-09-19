@@ -56,3 +56,35 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
+.small-btn {
+  display: inline-block;
+  border: none;
+  padding: 0.3rem 1rem;
+  margin: 0;
+  text-decoration: none;
+  background: #414141;
+  color: #ffffff;
+  font-family: inherit;
+  /* font-size: 1.6rem; */
+  font-size: 0.2rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+}
+
+.small-btn:hover,
+.small-btn:focus {
+  background: #a2272d;
+}
+
+.small-btn:focus {
+  outline: 1px solid #fff;
+  outline-offset: -3px;
+}
+
+.small-btn:active {
+  transform: scale(0.99);
+}
